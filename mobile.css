@@ -1,0 +1,51 @@
+@media screen and (max-width:768px) {
+    header {
+        width: 100%;
+
+    }
+    .menu ul li {
+        display: none;
+    }
+    .Outdoors{
+        margin-top:0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    .Outdoors h1 {
+        padding-top:50% ;
+        font-size: 50px;
+    }
+    .play{
+        width: 100px;
+    }
+    div.titulo {
+        margin: 0;
+        width: 100%;
+    }
+    .image img {
+        width: 80%;
+        height: 500px;
+    }
+    .image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .imagens  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .explore a {
+       margin: 40%;
+     }
+     footer {
+        width: 100%;
+        height: auto;
+     }
+     .montain {
+        display: none;
+     }
+}

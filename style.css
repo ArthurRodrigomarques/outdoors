@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image:url(./imagens/backgroud.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.menu ul {
+  font-weight: 600;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 3% 5% 0% 5%;
+    transition: 1s;
+    cursor: pointer;
+}
+.menu li:hover {
+    text-decoration: underline;
+}
+        /*Outdoors*/
+
+.Outdoors {
+    color: white;
+    text-align: center;
+    margin-top: 25vh;
+}
+.Outdoors h1 {
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+.Outdoors h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Outdoors button{
+    margin-top: 15vh;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.play {
+    width: 5vw;
+    margin-top: 120px;
+   
+}
+.play:hover {
+    transform: translate(-5px, -5px);
+}
+        /*Explore o mundo */
+main {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo {
+    text-align: center;
+    width: 60%;
+    margin: 0% 20% 0% 20%;
+}
+.titulo h1 {
+    margin-bottom: 10px;
+}
+
+    /*imagens para explorar*/
+
+.explore{ 
+    margin-top: 70px;
+}
+.explore a {
+    margin: 47%;
+    color: white;
+  }
+  .explore a:hover {
+    text-decoration: underline;
+  }
+.image {
+    display: flex;
+    justify-content: space-evenly;
+}
+.image img:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+.image img {
+    width: 28%;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+section .see {
+    text-decoration: none;
+}
+
+
+        /*Jornal*/
+
+.jornal {
+    margin-top: 60px;
+    text-align: center;
+}
+.jornal-titulo{
+    margin: 0% 20% 0% 20%;
+}
+.jornal-titulo h1{
+    font-size: 40px;
+}
+.jornal-titulo h2{
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.imagens {
+    display: flex;
+    justify-content: space-around;
+}
+.imagens img {
+    width: 70%;
+    height: 35vh;
+    border-radius: 10px;
+}
+.descricao {
+    margin: 0 auto;
+    width: 60%;
+}
+.imagens p {
+    margin: 20px;
+}
+
+        /*montanha de noite*/
+
+.montain{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./imagens/montanha.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+footer {
+    background-color: black;
+    height: 90px;
+}
+.about {
+ color: white;
+ padding-top: 12px;
+}
+.about ul {
+    list-style: none;
+    text-align: center;
+}
+.about li{
+    display: inline-block;
+    padding: 15px;
+}
+
